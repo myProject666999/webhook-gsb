@@ -1,0 +1,52 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets/
+
+# Logs / temp
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+.npm/
+.pnpm-store/
+coverage/
+
+# Go
+bin/
+*.exe
+*.test
+*.out
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Docker / local overrides
+docker-compose.override.yml
+*.local.yml
